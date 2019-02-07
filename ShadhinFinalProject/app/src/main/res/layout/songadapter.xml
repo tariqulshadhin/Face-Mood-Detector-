@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+   <LinearLayout
+       android:gravity="center"
+       android:layout_gravity="center"
+       android:weightSum="10"
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <ImageView
+
+           android:layout_gravity="center"
+           android:layout_weight="1"
+           android:background="@drawable/mpppp"
+           android:layout_width="20dp"
+           android:layout_height="40dp" />
+       <TextView
+           android:gravity="center"
+           android:layout_gravity="center"
+           android:layout_weight="6"
+           android:id="@+id/tv_song_name"
+           android:textSize="20sp"
+           android:text="Tumi r neu se tumi"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content" />
+       <Button
+           android:id="@+id/button_play"
+           android:gravity="center"
+           android:layout_gravity="center"
+           android:layout_weight="1.5"
+           android:background="@color/colorPrimary"
+           android:text="Play"
+           android:textSize="20sp"
+           android:textColor="#fff"
+           android:layout_width="30dp"
+           android:layout_height="wrap_content" />
+       <Button
+           android:layout_marginLeft="5dp"
+           android:id="@+id/button_pause"
+           android:gravity="center"
+           android:layout_gravity="center"
+           android:layout_weight="1.5"
+           android:background="@color/colorPrimary"
+           android:text="Stop"
+           android:textSize="20sp"
+           android:textColor="#fff"
+           android:layout_width="30dp"
+           android:layout_height="wrap_content" />
+
+
+
+
+
+   </LinearLayout>
+
+</android.support.v7.widget.CardView>

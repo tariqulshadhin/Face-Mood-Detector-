@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sad">
+    <RelativeLayout
+        android:id="@+id/toppppppp"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <ImageButton
+            android:onClick="backtomain2activity"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ic_keyboard_backspace_black_24dp"
+            android:layout_alignParentLeft="true" />
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <ImageView
+
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/like" />
+            <TextView
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:text="Sadness"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/like" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_below="@+id/toppppppp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/rellay1"
+                    android:layout_width="match_parent"
+                    android:layout_height="251dp"
+                    android:background="@drawable/others"
+                    android:paddingBottom="20dp">
+
+                    <RelativeLayout
+                        android:id="@+id/imgUser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/circle_border">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/imageView_tutor_account"
+                            android:layout_width="190dp"
+                            android:layout_height="190dp"
+                            android:layout_margin="9dp"
+                            android:padding="3dp" />
+
+
+                    </RelativeLayout>
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_margin="5dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:background="@drawable/information"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+                    <com.codesgood.views.JustifiedTextView
+                        android:lineSpacingExtra="3dp"
+                        android:padding="10dp"
+                        android:text="We are so happy that you are with us.Here have some important tips that seriously can change your mind.Many of like you have able to change there life to follow these tips.Here have some people they have shair their present life."
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <dyanamitechetan.vusikview.VusikView
+                        android:id="@+id/musicView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="Tip 1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:layout_margin="5dp"
+                        android:background="@drawable/think"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <com.codesgood.views.JustifiedTextView
+                        android:text="Don't think bad because bad thing will alwayes keep you in  anxiety and alwayes doctor sayes that anxiety causes cardiac attack and most of people become mentally illness.So don't think this past is past we need to leed our like to follow ahead."
+                        android:textSize="15sp"
+                        android:padding="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:background="@drawable/mpppp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp" />
+                    <TextView
+                        android:text="00.00"
+                        android:layout_gravity="center"
+                        android:id="@+id/textview_timer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageButton
+                            android:layout_marginBottom="4dp"
+                            android:layout_marginLeft="50dp"
+                            android:layout_marginRight="50dp"
+                            android:id="@+id/btn_play_pause"
+                            android:src="@drawable/play"
+                            android:layout_weight="2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="Tip 2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:layout_margin="5dp"
+                        android:background="@drawable/positivethinging"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="Change your thoughts by counting your joyes and bleesing"
+                        android:drawableLeft="@drawable/ic_keyboard_arrow_right_black_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="Appreciate and enjoy what you already have"
+                        android:drawableLeft="@drawable/ic_keyboard_arrow_right_black_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="Savor the joys of your achievement"
+                        android:drawableLeft="@drawable/ic_keyboard_arrow_right_black_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="Stand erect and hold your head high in trying circumstance"
+                        android:drawableLeft="@drawable/ic_keyboard_arrow_right_black_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="Allow yourself to be playful and childlike"
+                        android:drawableLeft="@drawable/ic_keyboard_arrow_right_black_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="Seek happiness and contentment in the present"
+                        android:drawableLeft="@drawable/ic_keyboard_arrow_right_black_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:text="Be a master of your mood"
+                        android:drawableLeft="@drawable/ic_keyboard_arrow_right_black_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_margin="5dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:text="Mind changing some songs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                       android:layout_margin="10dp"
+                       android:gravity="center"
+                       android:layout_gravity="center"
+                       android:weightSum="3"
+                       android:orientation="horizontal"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+                       <TextView
+                           android:id="@+id/name1"
+                           android:text="Mon valo korar song"
+                           android:layout_weight="1"
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content" />
+                       <ImageButton
+                           android:id="@+id/btn_sad_play1"
+                           android:src="@drawable/play"
+                           android:layout_weight="1"
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content" />
+                       <TextView
+                           android:id="@+id/txt_sad_timer1"
+                           android:text="00.00"
+                           android:layout_weight="1"
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content" />
+
+                   </LinearLayout>
+                    <LinearLayout
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:weightSum="3"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/name2"
+                            android:text="Mon valo korar song"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <ImageButton
+                            android:id="@+id/btn_sad_play2"
+                            android:src="@drawable/play"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/txt_sad_timer2"
+                            android:text="00.00"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:weightSum="3"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/name3"
+                            android:text="Mon valo korar song"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <ImageButton
+                            android:id="@+id/btn_sad_play3"
+                            android:src="@drawable/play"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/txt_sad_timer3"
+                            android:text="00.00"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:weightSum="3"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/name4"
+                            android:text="Mon valo korar song"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <ImageButton
+                            android:id="@+id/btn_sad_play4"
+                            android:src="@drawable/play"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/txt_sad_timer4"
+                            android:text="00.00"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:layout_margin="6dp"
+                app:cardElevation="3dp"
+                app:cardCornerRadius="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:gravity="center"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="center"
+                        android:text="Hay gyes we have some mind refreshment song you can hear them."
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:onClick="gosong"
+                        android:id="@+id/btsong"
+                        android:textColor="#fff"
+                        android:textSize="20sp"
+                        android:text="Click on Me"
+                        android:background="@color/colorPrimary"
+                        android:layout_margin="30dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+</RelativeLayout>

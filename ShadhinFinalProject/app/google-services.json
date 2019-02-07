@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1024730018643",
+    "firebase_url": "https://emotion-detection-79588.firebaseio.com",
+    "project_id": "emotion-detection-79588",
+    "storage_bucket": "emotion-detection-79588.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024730018643:android:2957222aeca9ccb7",
+        "android_client_info": {
+          "package_name": "com.example.islam.shadhinfinalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024730018643-j9hh8c1kr0qetjsu3d2l82l5j9r9bpq1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.islam.shadhinfinalproject",
+            "certificate_hash": "225c2a0ac52be5dd1818f88dd0962c4de1142a00"
+          }
+        },
+        {
+          "client_id": "1024730018643-c2fmciek1350mdu9k2ua5bv3tcabcbb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ_hT6WeVooaGeADFy73hLNUiOnsmoEtw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024730018643-c2fmciek1350mdu9k2ua5bv3tcabcbb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
